@@ -1,18 +1,15 @@
+# VacaBot — Sistema de Gestión de Vacaciones
+**Organización Empresarial — UTN TUP**
 
-VacaBot — Sistema de Gestión de Vacaciones
+Chatbot de consola que automatiza el proceso de solicitud de vacaciones, siguiendo el flujo modelado en el diagrama BPMN 2.0.
 
-Organización Empresarial — UTN TUP
+## Estructura del proyecto
 
-Chatbot de consola que automatiza el proceso de solicitud de vacaciones,
-siguiendo el flujo modelado en el diagrama BPMN 2.0.
-
-Estructura del proyecto =
-
-vacabot/
-├── VacaBot.ipynb      ← notebook principal (Google Colab)
-├── main.py            ← punto de entrada
-├── bot.py             ← máquina de estados (lógica BPMN)
-├── database.py        ← capa de acceso a datos
-└── data/
-    └── empleados.csv ← base de datos de empleados
-    └── solicitudes.csv ← base de datos de solicitudes
+    vacabot/
+    ├── VacaBot.ipynb       ← notebook principal (Google Colab)
+    ├── main.py             ← punto de entrada
+    ├── bot.py              ← máquina de estados (lógica BPMN)
+    ├── database.py         ← capa de acceso a datos
+    └── data/
+        ├── empleados.csv   ← base de datos de empleados
+        └── solicitudes.csv ← base de datos de solicitudes
