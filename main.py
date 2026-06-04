@@ -7,15 +7,11 @@ def main(): #Función principal que inicia y mantiene el bucle de conversación 
         try:
             entrada = input("") #Variable que contiene el input del usuario.
             if entrada.lower() == "salir": #Si el usuario escribe "salir"...
-                print("
-Sistema cerrado.
-") #Imprime mensaje de cierre y termina de ejecutar el programa.
+                print("Sistema cerrado.") #Imprime mensaje de cierre y termina de ejecutar el programa.
                 break
             print(bot.procesar(entrada)) #Pasa el input al bot y imprime la respuesta.
         except (KeyboardInterrupt, EOFError): #Si el usuario presiona Ctrl+C o cierra el input abruptamente...
-            print("
-Sesion interrumpida.
-") #Imprime mensaje de interrupción y termina de ejecutar el programa.
+            print("Sesion interrumpida.") #Imprime mensaje de interrupción y termina de ejecutar el programa.
             break
 
 if __name__ == "__main__": #Verifica que el archivo se está ejecutando directamente y no importado desde otro archivo.
