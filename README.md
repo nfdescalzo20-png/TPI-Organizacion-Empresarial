@@ -6,7 +6,7 @@ Chatbot de consola que automatiza el proceso de solicitud de vacaciones, siguien
 ## Estructura del proyecto
 
     vacabot/
-    ├── VacaBot.ipynb       ← notebook principal (Google Colab)
+    ├── status.py           ← estado de la base de datos de empleados y solicitudes   
     ├── main.py             ← punto de entrada
     ├── bot.py              ← máquina de estados (lógica BPMN)
     ├── database.py         ← capa de acceso a datos
