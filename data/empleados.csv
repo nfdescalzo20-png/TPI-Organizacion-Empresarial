@@ -1,5 +1,5 @@
 legajo,nombre,area,dias_disponibles,dias_tomados,jefe,email
-E001,Ana Garcia,Desarrollo,10,10,Carlos Mendez,ana.garcia@techcorp.com
+E001,Ana Garcia,Desarrollo,15,5,Carlos Mendez,ana.garcia@techcorp.com
 E002,Luis Perez,Soporte,3,17,Carlos Mendez,luis.perez@techcorp.com
 E003,Maria Lopez,RRHH,20,0,Paula Rodriguez,maria.lopez@techcorp.com
 E004,Juan Martinez,Finanzas,0,20,Paula Rodriguez,juan.martinez@techcorp.com
