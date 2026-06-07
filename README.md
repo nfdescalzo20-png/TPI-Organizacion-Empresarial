@@ -6,13 +6,14 @@ Chatbot de consola que automatiza el proceso de solicitud de vacaciones, siguien
 ## Estructura del proyecto
 
     vacabot/
-    ├── status.py           ← estado de la base de datos de empleados y solicitudes   
-    ├── main.py             ← punto de entrada
-    ├── bot.py              ← máquina de estados (lógica BPMN)
-    ├── database.py         ← capa de acceso a datos
+    ├── Manual de Usuario.pdf   ← manual que contiene instrucciones de uso  
+        ├── status.py           ← estado de la base de datos de empleados y solicitudes   
+        ├── main.py             ← punto de entrada
+        ├── bot.py              ← máquina de estados (lógica BPMN)
+        ├── database.py         ← capa de acceso a datos
     └── data/
-        ├── empleados.csv   ← base de datos de empleados
-        └── solicitudes.csv ← base de datos de solicitudes
+        ├── empleados.csv       ← base de datos de empleados
+        └── solicitudes.csv     ← base de datos de solicitudes
 ## Cómo ejecutar el proyecto
 
 ### Pasos
